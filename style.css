@@ -1,0 +1,49 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.pic {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    }
+h1{
+    margin-top: 40px;
+    text-align: center;
+    display: grid;
+
+}
+h5{
+    color:grey
+}
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    text-align: center;
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about {
+    text-align: center;
+   }
+.profile {
+    margin-left: 20px;
+    text-align: left;
+}
